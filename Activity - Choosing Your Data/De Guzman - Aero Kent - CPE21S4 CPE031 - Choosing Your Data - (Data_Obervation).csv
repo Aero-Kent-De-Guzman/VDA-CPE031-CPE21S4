@@ -1,0 +1,8 @@
+Variables,Data_Type,Column_number,Number_of_Rows,Observations
+Exercise Name,string,0,95,Title of the current gym exercise.
+Equipment,string,1,95,Contains what kind of function that the gym apparatus are designed to do or rather what to expect when using the tool.
+Preparation,string,2,95,Explains what the starting position of your different body parts should be for your initial posture before executing the exercise.
+Execution,string,3,95,Contains the details on how the participant should move their body to perform the exercise.
+Target_Muscles,list,4,95,Details the specific muscle type that will be affected the most by the indicated gym exercise as can be seen with it being written in latin.
+Synergist_Muscles,list,5,95,"Highlights the additional muscle types that will also contribute in the exercise, will not have as much as impact as the target muscles."
+Main_Muscles,string,6,95,Details the group of muscles that will be included in the exercise. Differs from the target muscles since the main muscles is the actual body part rather than a specific muscle type.
