@@ -1,0 +1,6 @@
+Computer ID,Brand,Model,Processor,RAM (GB),Storage (GB),Graphics Card,Price ($)
+1,Dell,XPS 13,Intel i7,16,512,Intel Iris Xe,1200
+2,HP,Pavilion 15,AMD Ryzen 5,8,256,AMD Radeon,800
+3,Apple,MacBook Pro,Apple M1,16,1024,Apple Integrated,2400
+4,Lenovo,ThinkPad X1,Intel i9,32,512,NVIDIA GTX 1650,1800
+5,Asus,ZenBook 14,Intel i5,16,512,NVIDIA MX250,1000
