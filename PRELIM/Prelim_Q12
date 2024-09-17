@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPeyb2ugp7Mw8u8aJbg5MB4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Aero-Kent-De-Guzman/VDA-CPE031-CPE21S4/blob/main/PRELIM/Prelim_Q12\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "P14F6VFXId9h",
+        "outputId": "19c10a71-978a-4a10-875a-0efbb67db700"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Original Data Frame\n",
+            "   0  1  2\n",
+            "0  1  4  7\n",
+            "1  4  5  8\n",
+            "2  3  6  9\n",
+            "3  4  7  0\n",
+            "4  5  8  1\n",
+            "New Data Frame\n",
+            "   0  1  2\n",
+            "0  1  4  7\n",
+            "2  3  6  9\n",
+            "3  4  7  0\n",
+            "4  5  8  1\n"
+          ]
+        }
+      ],
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "r1 = pd.Series([1,4,7])\n",
+        "r2 = pd.Series([4,5,8])\n",
+        "r3 = pd.Series([3,6,9])\n",
+        "r4 = pd.Series([4,7,0])\n",
+        "r5 = pd.Series([5,8,1])\n",
+        "data = pd.DataFrame([r1,r2,r3,r4,r5])\n",
+        "\n",
+        "print(\"Original Data Frame\")\n",
+        "print(data)\n",
+        "print(\"New Data Frame\")\n",
+        "print(data.drop(1))"
+      ]
+    }
+  ]
+}
